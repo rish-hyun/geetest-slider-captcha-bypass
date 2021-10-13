@@ -7,14 +7,14 @@ Bypass Geetest Slider Captcha using _**Selenium and OpenCV**_
 <hr>
 To install required dependencies, run this in a shell/terminal
 
-```
+```python
 pip install -r requirements.txt
 apt install chromium-chromedriver # if running of linux
 ```
 
 Now import the `GSC_solver` class
 
-```
+```python
 from gsc import GSC_solver
 
 gcs = GSC_solver()
@@ -24,7 +24,7 @@ driver = gcs.solve(f'https://www.tiktok.com/@{search_term}')
 
 or
 
-```
+```python
 . . .
 
 driver = webdriver.Chrome(chrome_driver_path, desired_capabilities=caps, options=chrome_options)
@@ -52,6 +52,6 @@ driver = gcs.solve(driver)
 
 If you want to save snapshots like these, give location at `snapshot_path` in `solve`
 
-```
+```python
 gcs.solve(. . . , snapshot_path = 'enter_path_here')
 ```
