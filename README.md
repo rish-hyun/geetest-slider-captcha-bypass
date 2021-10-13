@@ -1,4 +1,4 @@
-# geetest-slider-captcha-bypass
+# Geetest Slider Captcha Bypass
 ![](https://img.shields.io/badge/Python-Selenium-blue) ![](https://img.shields.io/badge/Python-OpenCV-yellow)
 
 
@@ -11,7 +11,9 @@ To install required dependencies, run this in a shell/terminal
 pip install -r requirements.txt
 apt install chromium-chromedriver # if running of linux
 ```
+
 Now import the `GSC_solver` class
+
 ```
 from gsc import GSC_solver
 
@@ -19,7 +21,9 @@ gcs = GSC_solver()
 search_term = 'bts_official_bighit'
 driver = gcs.solve(f'https://www.tiktok.com/@{search_term}')
 ```
+
 or
+
 ```
 . . .
 
@@ -32,6 +36,7 @@ driver = gcs.solve(driver)
 
 . . .
 ```
+
 <hr>
 <p>
 <img src="snapshot/0b8796d53da6cd73610cb336e2cc45da/captcha.gif" width="300" height="250" />
@@ -46,6 +51,7 @@ driver = gcs.solve(driver)
 <hr>
 
 If you want to save snapshots like these, give location at `snapshot_path` in `solve`
+
 ```
 gcs.solve(. . . , snapshot_path = 'enter_path_here')
 ```
