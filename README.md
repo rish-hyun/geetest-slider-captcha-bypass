@@ -9,7 +9,7 @@ To install required dependencies, run this in a shell/terminal
 
 ```python
 pip install -r requirements.txt
-apt install chromium-chromedriver # if running of linux
+apt install chromium-chromedriver # if running on linux
 ```
 
 Now import the `GSC_solver` class
@@ -17,9 +17,9 @@ Now import the `GSC_solver` class
 ```python
 from gsc import GSC_solver
 
-gcs = GSC_solver()
+gsc = GSC_solver()
 search_term = 'bts_official_bighit'
-driver = gcs.solve(f'https://www.tiktok.com/@{search_term}')
+driver = gsc.solve(f'https://www.tiktok.com/@{search_term}')
 ```
 
 or
@@ -32,7 +32,7 @@ search_term = 'bts_official_bighit'
 driver.get(f'https://www.tiktok.com/@{search_term}')
 
 # Solve captcha by passing webdriver object
-driver = gcs.solve(driver)
+driver = gsc.solve(driver)
 
 . . .
 ```
@@ -53,5 +53,5 @@ driver = gcs.solve(driver)
 If you want to save snapshots like these, give location at `snapshot_path` in `solve`
 
 ```python
-gcs.solve(. . . , snapshot_path = 'enter_path_here')
+gsc.solve(. . . , snapshot_path = 'enter_path_here')
 ```
