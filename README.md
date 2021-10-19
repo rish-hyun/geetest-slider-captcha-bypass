@@ -1,6 +1,6 @@
 # Geetest Slider Captcha Bypass
-![](https://img.shields.io/badge/Python-Selenium-blue) ![](https://img.shields.io/badge/Python-OpenCV-yellow)
-
+[![](https://img.shields.io/badge/Python-Selenium-blue)](https://pypi.org/project/selenium/)
+[![](https://img.shields.io/badge/Python-OpenCV-yellow)](https://pypi.org/project/opencv-python/)
 
 Bypass Geetest Slider Captcha using _**Selenium and OpenCV**_
 
