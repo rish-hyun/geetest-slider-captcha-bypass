@@ -39,14 +39,14 @@ driver = gsc.solve(driver)
 
 <hr>
 <p>
-<img src="snapshot/0b8796d53da6cd73610cb336e2cc45da/captcha.gif" width="250" height="166" />
-<img src="snapshot/0c2e924a9af52a7a17b90dd7dd2651ad/captcha.gif" width="250" height="166" />
-<img src="snapshot/0c3222c9aa061ca1bac3d0af4e440866/captcha.gif" width="250" height="166" />
+<img src="snapshot/0b8796d53da6cd73610cb336e2cc45da/captcha.gif" width="250" height="180" />
+<img src="snapshot/0c2e924a9af52a7a17b90dd7dd2651ad/captcha.gif" width="250" height="180" />
+<img src="snapshot/0c3222c9aa061ca1bac3d0af4e440866/captcha.gif" width="250" height="180" />
 </p>
 <p>
-<img src="snapshot/0b8796d53da6cd73610cb336e2cc45da/process.gif" width="250" height="133" />
-<img src="snapshot/0c2e924a9af52a7a17b90dd7dd2651ad/process.gif" width="250" height="133" />
-<img src="snapshot/0c3222c9aa061ca1bac3d0af4e440866/process.gif" width="250" height="133" />
+<img src="snapshot/0b8796d53da6cd73610cb336e2cc45da/process.gif" width="250" height="145" />
+<img src="snapshot/0c2e924a9af52a7a17b90dd7dd2651ad/process.gif" width="250" height="145" />
+<img src="snapshot/0c3222c9aa061ca1bac3d0af4e440866/process.gif" width="250" height="145" />
 </p>
 <hr>
 
